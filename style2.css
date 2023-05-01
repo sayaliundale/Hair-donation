@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+#logo {
+    height: 8rem;
+    width: 17rem;
+    margin-left: 2rem;
+    position: relative;
+    top: 1.5rem;
+  }
+  
+  .container {
+    height: 50rem;
+    object-fit: cover;
+  }
+  .mid {
+    display: block;
+    width: 33%;
+    margin: 30px auto;
+  }
+  #img2 {
+    width: 99rem;
+    margin-top: -12rem;
+    height:200rem;
+    
+  }
+  
+  nav {
+    position: absolute;
+    top: 3rem;
+    height: 40px;
+    margin-left: 5rem;
+    /* background: linear-gradient(
+        90deg,
+        rgb(255, 215, 77) 0%,
+        rgb(64, 221, 255) 30%,
+        rgb(124, 127, 255) 85%
+      )
+      0% 0% / 200% 100%; */
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+  nav a {
+    color: black;
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Lemonada', cursive;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  #img2 {
+    width: 99rem;
+    margin-top: -12rem;
+
+  }
+  #p1{
+    width:50rem;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-left: 24rem;
+    color:rgb(93, 2, 118);
+    font-family: 'Lemonada', cursive;
+    font-weight: bold;
+  }
+  .container1{
+    position:absolute;
+    top:13rem;
+  }
+  .ngos{
+    position: absolute;
+    top:30rem;
+    margin-left: 8rem;
+    font-family: 'Lemonada', cursive;
+    width:58rem;
+    text-align: center;
+   
+}
+    #n1,#n3,#n5{
+        width:25rem;
+        height:18rem;
+        float:left;
+       
+    }
+    .n3,.n5{
+        position:relative;
+        top:-8rem;
+    }    #n2,#n4{
+        width:25rem;
+        height:20rem;
+        position: relative;
+        margin-left: 50rem;
+        font-size: 1.3rem;
+    }
+    #hc1,#hc2,#ac1,#ac2{
+        width:80rem;
+    }
+    #cp1,#cp2,#cf1,#cf2{
+        position: relative;
+        top:-20rem;
+        width:50rem;
+    }
+    /* .n1,.n3,.n5{
+        margin-bottom: 3rem;
+        
+    } */
+    #hc,#cp1,#cf1,#s1,#ac1{
+        font-size: 2rem;
+        color:orange;
+    }
+    #hc1,#cp2,#cf2,#s2,#ac2{
+        font-size: 1.2rem;
+    }
+    

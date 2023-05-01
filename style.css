@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
 #logo {
   height: 8rem;
@@ -45,8 +45,9 @@ nav a {
   color: black;
   padding: 30px;
   font-size: 30px;
-  font-family: 'Tajawal', sans-serif;
-  font-weight: normal;
+  font-family: 'Lemonada', cursive;
+  font-weight:-100;
+  text-decoration: none;
 }
 #img1 {
   margin-left: 47rem;
@@ -95,37 +96,50 @@ nav a {
 }
 .middle {
   position: absolute;
-  margin-left: 5rem; 
-  top:59rem;
-  width: 30rem;
-  border-radius: 3rem;
+  margin-left: 18rem; 
+  top:62rem;
+  width: 57rem;
+  border-radius: 5rem;
   padding:2rem;
-  height: 30rem;
+  height: 17rem;
   background-color: skyblue;
   color:white;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-family: "Courgette", cursive;
   font-weight: normal;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-align: center;
 }
 iframe{
-  margin-left: 44rem;
+  margin-left: 27rem;
+  position: relative;
+  top:30rem;
+  z-index: 1;
 }
 #span2{
-  color:black;
+  color:rgb(157, 19, 19);
   text-align: center;
   
 }
 #arrow{
+  position: relative;
+  top:-15rem;
+  height:10rem;
+  width:25rem;
+  transform: rotate(65deg);
+  
+  
+}
+#hand{
   height:20rem;
   width:20rem;
-  margin-left:066rem;
+  margin-left:020rem;
   position:relative;
-  top:-12rem;
-  color:white;
+  top:10rem;
+  z-index: 1;
+ 
 }
-#arrow {
+#hand {
   position: relative;
   animation-name: slide;
   animation-duration: 1s;
@@ -145,15 +159,50 @@ iframe{
   width:40rem;
   position:relative;
   border-radius: 1rem;
-  
+  top:15rem;
  
 }
 .img3{
   width:40rem;
   height:22rem;
-  background-color: orange;
+  /* background-color: orange; */
   margin-left: 40rem;
-  top:8rem;
+  position: absolute;
+  z-index: 1;
   padding:3rem;
   border-radius: 2rem;
+}
+#img4{
+  width:60rem;
+  height:23rem;
+  position:relative;
+  margin-left: 3rem;
+  top: 42rem;
+  border-radius: 3rem;;
+
+}
+.img4{
+  width:70rem;
+  height:40rem;
+  
+ 
+}
+#footer{
+  width:99rem;
+  position:absolute;
+
+  z-index: 0;
+  height:70rem;
+  background-image: linear-gradient(to top, #ee9be0, #ebb7f0, #ebd1fa, #f1e9ff, #ffffff);
+}
+#p5{
+  font-size: 2.5rem;
+  width:45rem;
+  font-family: "Courgette", cursive;
+  position: relative;
+  top:15rem;
+  z-index: 1;
+  margin-left: 5rem;
+  color:rgb(92, 40, 108);
+
 }

@@ -61,6 +61,7 @@ nav a {
   font-size: 3.5rem;
   font-family: "Courgette", cursive;
   font-weight: normal;
+  
 }
 #p2 {
   position: absolute;
@@ -160,6 +161,9 @@ iframe{
   position:relative;
   border-radius: 1rem;
   top:15rem;
+  animation-name: ani1;
+        animation-duration: 3s;
+        animation-iteration-count: 2505;
  
 }
 .img3{
@@ -179,6 +183,9 @@ iframe{
   margin-left: 3rem;
   top: 42rem;
   border-radius: 3rem;;
+  animation-name: ani2;
+  animation-duration: 3s;
+ animation-iteration-count: 3335;
 
 }
 .img4{
@@ -194,6 +201,29 @@ iframe{
   z-index: 0;
   height:70rem;
   background-image: linear-gradient(to top, #ee9be0, #ebb7f0, #ebd1fa, #f1e9ff, #ffffff);
+}
+@keyframes ani1 {
+  from{
+    left:0rem;
+    right:10rem;
+  }
+  to{
+    left:-10rem;
+    right:0rem;
+  }
+}
+
+  @keyframes ani2 {
+  from{
+    left:0rem;
+    
+  }
+  to{
+    
+    left:10rem;
+  }
+  
+  
 }
 #p5{
   font-size: 2.5rem;

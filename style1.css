@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+#logo {
+    height: 8rem;
+    width: 17rem;
+    margin-left: 2rem;
+    position: relative;
+    top: 1.5rem;
+  }
+  
+  .container {
+    height: 50rem;
+    object-fit: cover;
+  }
+  .mid {
+    display: block;
+    width: 33%;
+    margin: 30px auto;
+  }
+  #img2 {
+    width: 99rem;
+    margin-top: -12rem;
+    
+  }
+  
+  nav {
+    position: absolute;
+    top: 3rem;
+    height: 40px;
+    margin-left: 5rem;
+    /* background: linear-gradient(
+        90deg,
+        rgb(255, 215, 77) 0%,
+        rgb(64, 221, 255) 30%,
+        rgb(124, 127, 255) 85%
+      )
+      0% 0% / 200% 100%; */
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+  nav a {
+    color: black;
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: normal;
+  }
+  #img1 {
+    margin-left: 47rem;
+    position: absolute;
+    top: 12rem;
+  }
+  .container2{
+    position:absolute;
+    top:13rem;
+
+  }
+  #p1{
+    font-size: 3rem;
+    margin-left: 23rem;
+    color:rgb(93, 2, 118);
+    font-family: 'Lemonada', cursive;
+    font-weight: bold;
+  }
+  .container3{
+    width:50rem;
+    font-size: 1.4rem;
+    margin-left: 20rem;
+    font-family: 'Lemonada', cursive;
+    font-weight: normal;
+    text-align: center;
+
+  }
+ 
+   .toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: relative;
+  }
+  
+  .toggle-button {
+    background-color: #e67e22;
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    height: 16rem;
+    width:16rem;
+    border-radius: 8rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    left: 50%;
+    font-family: 'Lemonada', cursive;
+    transform: translateX(-50%);
+  }
+  
+  .toggle-content {
+    position: absolute;
+    font-family: ;
+    visibility: hidden;
+    top: 0;
+    margin-left: 14rem;
+    padding: 10px;
+    border-radius: 5rem;
+    
+    border-radius: 5px;
+    width: 0;
+   height:100%;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .toggle-container.expanded .toggle-button {
+    left: 20px;
+  }
+  
+  .toggle-container.expanded .toggle-content {
+    width: calc(100% - 80px);
+    visibility: visible;
+  }
+  #t1{
+    top:7rem;
+  }
+  #t2
+  {
+        top:15rem;
+  }
+  #t3{
+    top:23rem;
+  }
+  
+  
+    

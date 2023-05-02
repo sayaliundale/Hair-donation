@@ -30,14 +30,6 @@
     position: absolute;
     top: 3rem;
     height: 40px;
-    margin-left: 5rem;
-    /* background: linear-gradient(
-        90deg,
-        rgb(255, 215, 77) 0%,
-        rgb(64, 221, 255) 30%,
-        rgb(124, 127, 255) 85%
-      )
-      0% 0% / 200% 100%; */
     border-radius: 2rem;
     text-align: center;
     padding-top: 20px;
@@ -141,15 +133,15 @@
   #p2{
     position: relative;
     top:27rem;
-    
-    margin-left: 30rem;
+    width:60rem;
+    margin-left: -4rem;
   }
   .steps,.Steps{
     display: flex;
     flex-direction: row;
     position: relative;
     top:24rem;
-    margin-left: 8rem;
+    margin-left: -10rem;
     font-family: 'Lemonada', cursive;
     width:18rem;
     text-align: center;

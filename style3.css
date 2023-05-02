@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+#logo {
+  height: 8rem;
+  width: 17rem;
+  margin-left: 2rem;
+  position: relative;
+  top: 1.5rem;
+}
+
+.container {
+  height: 50rem;
+  object-fit: cover;
+}
+.mid {
+  display: block;
+  width: 33%;
+  margin: 30px auto;
+}
+#img2 {
+  width: 99rem;
+  margin-top: -12rem;
+  
+}
+
+nav {
+  position: absolute;
+  top: 3rem;
+  height: 40px;
+  margin-left: 0rem;
+  
+  border-radius: 2rem;
+  text-align: center;
+  padding-top: 20px;
+}
+nav a {
+  color: black;
+  padding: 30px;
+  font-size: 30px;
+  font-family: 'Lemonada', cursive;
+  font-weight:-100;
+  text-decoration: none;
+}
+#img1 {
+  margin-left: 47rem;
+  position: absolute;
+  top: 12rem;
+}
+.container1{
+  position:absolute;
+  top:15rem;
+  padding:3rem;
+  margin-left: 5rem;
+  width:35rem;
+  height:50rem;
+  background-color: white;
+  border-radius: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-image: linear-gradient(to right top, #deaade, #d4aee7, #c4c7e9, #add5e5, #b0f0f1);
+}
+#p1{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(78, 7, 116)
+}
+fieldset legend{
+  width:30rem;
+}
+p{
+  font-size: 1.2rem;;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+input{
+  height:2rem;
+  width:100%;
+  border-color:blueviolet;
+  border-radius: 0.7rem;
+}
+#r1,#r2{
+  margin-left: -15rem;
+  margin-top:0.5rem; 
+ 
+  height:1rem;
+  width:100%;
+}
+button{
+  width:8rem;
+  height:2.5rem;
+  margin-left:12rem;
+  margin-top:2rem;
+  border-radius: 0.5rem;
+font-size: 1.2rem;
+background-color: yellowgreen;
+}
+.Container{
+  display: flex;
+  flex-direction: row;
+}
+.container2{
+  position:absolute;
+  top:15rem;
+  padding:3rem;
+  margin-left: 53rem;
+  width:35rem;
+  height:50rem;
+  background-color: white;
+  border-radius: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-image: linear-gradient(to right top, #deaade, #d4aee7, #c4c7e9, #add5e5, #b0f0f1);
+
+}
+button:hover{
+  background-color: orange;
+}

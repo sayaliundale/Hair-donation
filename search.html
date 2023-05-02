@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Donation Centers</title>
+    <style>
+        /* Add some basic styling to the search bar and results */
+        #search {
+            padding: 10px;
+            margin-bottom: 20px;
+            width: 300px;
+            font-size: 16px;
+        }
+        #results {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #results li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Find Hair Donation Centers</h1>
+    <label for="city">Enter your city:</label>
+    <input type="text" id="city" name="city">
+    <button onclick="search()">Search</button>
+    <ul id="results"></ul>
+    <script>
+        const centers = {
+            'Pune': ['Cope with cancer', 'liitle princess', 'Adyar'],
+            'Mumbai': ['Hair Crown', 'Hair we sahre','Cherian Foundation']
+        };
+
+        function search() {
+            const input = document.getElementById('city').value;
+            const resultsList = document.getElementById('results');
+            resultsList.innerHTML = ''; // Clear any previous results
+            if (input in centers) {
+                const centerList = centers[input];
+                for (let i = 0; i < centerList.length; i++) {
+                    const li = document.createElement('li');
+                    li.textContent = centerList[i];
+                    resultsList.appendChild(li);
+                }
+            } else {
+                const li = document.createElement('li');
+                li.textContent = 'No results found';
+                resultsList.appendChild(li);
+            }
+        }
+    </script>
+</body>
+</html>

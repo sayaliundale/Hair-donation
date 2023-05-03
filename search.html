@@ -1,35 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Find Donation Centers</title>
-    <style>
-        /* Add some basic styling to the search bar and results */
-        #search {
-            padding: 10px;
-            margin-bottom: 20px;
-            width: 300px;
-            font-size: 16px;
-        }
-        #results {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        #results li {
-            margin-bottom: 10px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <title>Document</title>
+    
+
 </head>
 <body>
-    <h1>Find Hair Donation Centers</h1>
-    <label for="city">Enter your city:</label>
+
+    <div class="container" >
+        <header class="header"> 
+           <div class="left"> 
+              <img id="logo" src="l.png.png" class="png">
+           </div>
+           <div class="mid">
+
+            <nav>
+               <a href="index.html"><b>Home</b></a>
+               <a href="steps.html"><b>Why&How</b></a>
+               <a href="ngo.html"><b>NGOs</b></a>
+               <a href="register.html"><b>Register</b></a>
+               <a><b>Near me</a>
+            </nav>  
+       </div>
+       <img src="Download premium vector of Pastel ombre background vector in pink and purple by Ning about gradient backgrounds, ombre background, ombre pastel background, backgrounds, and pastel background 3013675.jpg" id="img2">
+
+<head>
+    <title>Find Donation Centers</title>
+    
+    <div class="container1">
+    <h1 id="h1">Find Hair Donation Centers</h1>
+    <label id="label"for="city">Enter your city:</label>
     <input type="text" id="city" name="city">
     <button onclick="search()">Search</button>
     <ul id="results"></ul>
+</div>
     <script>
         const centers = {
-            'Pune': ['Cope with cancer', 'liitle princess', 'Adyar'],
-            'Mumbai': ['Hair Crown', 'Hair we sahre','Cherian Foundation']
+            'Pune': ['Prashanti Cancer Care Mission' , 'Bizare', 'Pune Hair and Skin Care Center','Avinash Cancer Clinic','Unity of Beauty'],
+            'Mumbai': ['Hair Aid', 'Cope with Cancer','Strands for Strength','Global Vision Cancer Care'],
+            'pune':['Prashanti Cancer Care Mission' , 'Bizare', 'Pune Hair and Skin Care Center'],
+            'mumbai':['Hair Aid', 'Cope with Cancer','Strands for Strength'],
+            'Nashik':['Reach Feel Trichocology'],
+            'nashik':['Reach Feel Trichocology'],
+            'Hydrabad':['Hyderabad Hair Donations for Cancer Patients'],
+            'Lucknow':['Shair Initiative of Green Trends Salon']
         };
 
         function search() {
